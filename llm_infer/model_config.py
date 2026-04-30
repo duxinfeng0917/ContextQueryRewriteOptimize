@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+# 自动加载项目根目录或当前目录的 .env 文件
+load_dotenv()
 
 # ── API Key 从环境变量读取，禁止硬编码 ──────────────────────────────────────
 # 配置方式：在项目根目录创建 .env 文件（参考 .env.example），或在系统环境中设置：
